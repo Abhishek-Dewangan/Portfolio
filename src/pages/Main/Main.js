@@ -1,5 +1,5 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Helmet } from "react-helmet";
 
 import {
   Navbar,
@@ -15,22 +15,22 @@ import {
   Projects,
   Services,
   Achievement,
-} from '../../components';
-import { headerData } from '../../data/headerData';
+} from "../../components";
+import { headerData } from "../../data/headerData";
 
 function Main() {
   return (
     <div>
-    <Navbar />
-    <Helmet>
-      <title>{headerData.name} - Porfolio</title>
-    </Helmet>
+      <Navbar />
+      <Helmet>
+        <title>{headerData.name} - Porfolio</title>
+      </Helmet>
 
       <Landing />
       <About />
+      <Experience />
       <Education />
       <Skills />
-      <Experience />
       <Projects />
       <Achievement />
       <Services />
